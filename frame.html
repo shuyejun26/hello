@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame</title>
+</head>
+<style>
+    .header,
+    .footer{
+        background-color:lightblue;
+        border:yellow 1px solid;
+        height: 200px;
+    }
+    .aside,
+    .main{
+        background-color:lightcyan;
+        border: 1px solid yellow;
+        height: 800px;
+    }
+
+    .aside{
+        width: 30%;
+        float: left;
+    }
+
+    .float-box{
+        position: absolute;
+        top: 500px;
+        left: 800px;
+        width: 200px;
+        height: 200px;
+        background-color: lavender;
+    }
+</style>
+<body>
+    <div class="header">Header</div>
+    <div class="aside">aside</div>
+    <div class="main">section</div>
+    <div class="footer">footer</div>
+    <div class="float-box"></div>
+</body>
+</html>
